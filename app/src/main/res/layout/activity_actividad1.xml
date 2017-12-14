@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil del Candidato"
+        android:id="@+id/lblTitulo"
+        android:textSize="25dp"
+        android:layout_marginLeft="75dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_below="@+id/lblTitulo"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:id="@+id/lblNombre"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblNombre"
+        android:layout_alignTop="@id/lblNombre"
+        android:id="@+id/txtNombre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provincia"
+        android:textSize="20dp"
+        android:layout_below="@id/lblNombre"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lblProvincia"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblProvincia"
+        android:layout_alignTop="@id/lblProvincia"
+        android:id="@+id/spinProvincias"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:textSize="20dp"
+        android:layout_below="@id/lblProvincia"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lblSexo"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rbGrupo"
+        android:layout_toRightOf="@id/lblSexo"
+        android:layout_alignTop="@id/lblSexo">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:id="@+id/rbMasc"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Femenino"
+            android:id="@+id/rbFem"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conocimientos"
+        android:textSize="20dp"
+        android:layout_below="@id/lblSexo"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lblConocimientos"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHP"
+        android:id="@+id/chkPHP"
+        android:layout_below="@id/lblConocimientos"
+        android:layout_marginLeft="40dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:layout_below="@id/chkPHP"
+        android:layout_alignLeft="@id/chkPHP"
+        android:id="@+id/chkJAVA"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTML"
+        android:layout_below="@id/chkJAVA"
+        android:layout_alignLeft="@id/chkJAVA"
+        android:id="@+id/chkHTML"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSS"
+        android:layout_below="@id/chkHTML"
+        android:layout_alignLeft="@id/chkHTML"
+        android:id="@+id/chkCSS"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVALUAR"
+        android:layout_below="@id/chkCSS"
+        android:layout_marginLeft="125dp"
+        android:id="@+id/btnEvaluar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidatos: 0"
+        android:textSize="20dp"
+        android:layout_below="@id/btnEvaluar"
+        android:id="@+id/lblCandidatos"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALIR"
+        android:layout_below="@id/lblCandidatos"
+        android:id="@+id/btnSalir"
+        android:layout_marginLeft="250dp"
+        android:visibility="invisible"/>
+
+
+
+
+
+</RelativeLayout>

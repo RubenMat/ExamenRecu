@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/provImg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/provNom"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/provImg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/provSup"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/provImg"
+            android:layout_below="@id/provNom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/provPoblacion"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/provSup"
+            android:layout_below="@id/provNom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/provURL"
+            android:textSize="15dp"
+            android:layout_below="@id/provSup"
+            android:layout_toRightOf="@id/provImg"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

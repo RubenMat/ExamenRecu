@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen 1º Eval (RECU)</string>
+    <string name="btnAct1">Actividad 01</string>
+    <string name="btnAct2">Actividad 02</string>
+    <string name="btnAct3">Actividad 03</string>
+    <string name="btnAct4">Actividad 04</string>
+    <string name="btnSalir">SALIR</string>
+    <string name="toasty">Actividad sin implementar</string>
+    <string-array name="spinProv">
+        <item>Álava</item>
+        <item>Bizkaia</item>
+        <item>Gipuzkua</item>
+        <item>Burgos</item>
+        <item>Soria</item>
+    </string-array>
+</resources>

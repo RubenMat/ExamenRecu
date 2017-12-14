@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen 1º Eval (RECU)</string>
+    <string name="btnAct1">Activity 01</string>
+    <string name="btnAct2">Activity 02</string>
+    <string name="btnAct3">Activity 03</string>
+    <string name="btnAct4">Activity 04</string>
+    <string name="btnSalir">EXIT</string>
+    <string name="toasty">Activity not implemented</string>
+</resources>
